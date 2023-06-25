@@ -1,0 +1,126 @@
+header{
+    width: 100%;
+
+}
+
+header .header{
+    display: flex;
+    padding: 100px 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header .header-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header .header-left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-right h1{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    position: relative;
+}
+.header-right h1 span:nth-child(1){
+    font-weight: 900;
+}
+.header-right h1 span:nth-child(2){
+    font-weight: 500;
+}
+.header-right h1 span:nth-child(3){
+    font-weight: 300;
+}
+.header-right h1::after{
+    content: "";
+    position: absolute;
+    bottom: -11px;
+     width: 60%;
+     height: 2px;
+     background-color: #ddd;
+}
+ 
+.header-right p{
+  
+    font-size: 14px;
+    color: #999;
+    margin-top: 31px;
+    padding-right: 66px;
+}
+
+.header-right .btn{
+    display: flex;
+    margin-top: 15px;
+}
+.btn .btn-dark{
+    border: solid 1px #fff;
+    font-size: 14px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+}
+.btn .btn-orang{
+    background-color: orangered;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+
+.header-left img{
+    width: 80%;
+}
+.btn-floating{
+    background-color: #1f93ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 30px;
+ }
+
+.btn-floating a{
+    animation: animate .7s infinite ease alternate;
+ }
+ 
+ @keyframes animate {
+    0%{
+       transform: translateY(-25%);
+    }
+    100%{
+       transform: translateY(25%);
+    }
+ }
+
+@media screen and (max-width:650px) {
+    header .header{
+        flex-direction: column;
+        padding: 50px 0;
+    }
+    .header .header-right{
+        width: 100%;
+    }
+    .header .header-left{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .header .header-right h1{
+        font-size: 22px;
+    }
+    .header .header-left img{
+        width: 40%;
+    }
+}
