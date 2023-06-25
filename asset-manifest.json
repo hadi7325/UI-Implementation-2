@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/UI-Implementation-2/static/css/main.04ea6093.css",
+    "main.js": "/UI-Implementation-2/static/js/main.f8d89e0c.js",
+    "static/media/subscribe-bg.png": "/UI-Implementation-2/static/media/subscribe-bg.66bb18fcec635d82553c.png",
+    "static/media/phone-header-bg.png": "/UI-Implementation-2/static/media/phone-header-bg.c0ca1798311c080127c0.png",
+    "static/media/phone-features.png": "/UI-Implementation-2/static/media/phone-features.fdadf84ec3bc2a0d3094.png",
+    "index.html": "/UI-Implementation-2/index.html",
+    "main.04ea6093.css.map": "/UI-Implementation-2/static/css/main.04ea6093.css.map",
+    "main.f8d89e0c.js.map": "/UI-Implementation-2/static/js/main.f8d89e0c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04ea6093.css",
+    "static/js/main.f8d89e0c.js"
+  ]
+}
